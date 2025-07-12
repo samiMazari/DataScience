@@ -1,4 +1,4 @@
-**Summary** : Deep Learning and Machine Learning
+# Summary : Deep Learning and Machine Learning
 
 Big Data has five characteristics:  velocity, volume, variety, veracity, and value.
 
