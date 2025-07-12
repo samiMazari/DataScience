@@ -1,5 +1,5 @@
-# Data Science Application Domains Lesson Glossary
-Welcome! This alphabetized glossary contains many of the terms in the field of data science. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+# Data Science Application Domains Lesson Glossary      
+This alphabetized glossary contains many of the terms in the field of data science. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
 
 | **Term**               | **Definition**                                                                                                                                          |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
