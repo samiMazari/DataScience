@@ -1,0 +1,15 @@
+# Understanding Data Lesson Glossary       
+This alphabetized glossary contains many of the terms in this course. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+
+
+| **Term**                                   | **Definition**                                                                                                                                                                                                 |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comma-separated values (CSVs)              | Delimited text files where the delimiter is a comma. Used to store structured data.                                                                                                                            |
+| Delimited text file formats                | Text files are used to store data where each line or row has values separated by a delimiter. A delimiter is a sequence of one or more characters specifying the boundary between values. Common delimiters include comma, tab, colon, vertical bar, and space. |
+| NoSQL databases                            | Databases are designed to store and manage unstructured data and provide analysis tools for examining this type of data.                                                                                       |
+| Online Transaction Processing (OLTP) Systems | Systems that focus on handling business transactions and storing structured data.                                                                                                                               |
+| Relational databases                       | Databases are designed to store structured data with well-defined schemas and support standard data analysis methods and tools.                                                                                |
+| Sensors                                    | Devices such as Global Positioning Systems (GPS) and Radio Frequency Identification (RFID) tags generate structured data.                                                                                      |
+| Spreadsheets                               | Software applications like Excel and Google Spreadsheets are used for organizing and analyzing structured data.                                                                                                |
+| SQL Databases                              | Databases that use Structured Query Language (SQL) for defining, manipulating, and querying data in structured formats.                                                                                        |
+| Tab-separated values (TSVs)                | Delimited text files where the delimiter is a tab. Used as an alternative to CSV when literal commas are present in text data.                                                                                |
