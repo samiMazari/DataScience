@@ -2,7 +2,7 @@
 In this data-driven world, some datasets are freely available for anyone to access, use, modify, and share. These are called open datasets.       
 Open datasets include a public license and are very useful for your journey as a Data Scientist. Some of the most informative open dataset sources are listed below.         
 
-**Government Data:**        
+**Government Data :**        
 
 https://www.data.gov/           
 https://www.census.gov/data.html                                  
@@ -10,7 +10,7 @@ https://data.gov.uk/
 https://www.opendatanetwork.com/                           
 https://data.un.org/  
 
-**Financial Data Sources:**                                 
+**Financial Data Sources :**                                 
 
 https://data.worldbank.org/                    
 https://www.globalfinancialdata.com/               
