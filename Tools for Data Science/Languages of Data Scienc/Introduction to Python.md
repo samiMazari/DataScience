@@ -1,4 +1,5 @@
-**Python is a powerhouse of a language. It is the most widely used and most popular programming language used in the data science industry**         
+**Python is a powerhouse of a language. It is the most widely used and most popular programming language used in the data science industry**       
+---
 **Who use Python ?** 
 - If you already know how to program, then Python is great for you because it uses clear and readable syntax.
 - You can develop the same programs from other languages with lesser code using Python.
