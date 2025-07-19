@@ -11,3 +11,10 @@
 -  companies that use R include IBM, Google, Facebook, Microsoft, Bank of America, Ford, TechCrunch, Uber, and Trulia. R has become the world’s largest repository of statistical knowledge.
 
  As of 2018, R has more than 15,000 publicly released packages making it possible to conduct complex exploratory data analysis. R integrates well with other computer languages like C++, Java, C, .Net, and Python. Using R, common mathematical operations like matrix multiplication give immediate results.
+
+
+# Summary : 
+- The Open-Source Initiative (OSI) champions open source, while the Free Software Foundation (FSF) defines free software. 
+- Python is open source, and R is free software.
+- R language’s array-oriented syntax makes it easier to translate from math to code for learners with none or minimal programming background.
+- And R has become the world’s largest repository of statistical knowledge.
