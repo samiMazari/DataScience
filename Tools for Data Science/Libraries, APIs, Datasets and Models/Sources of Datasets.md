@@ -4,12 +4,13 @@ Open datasets include a public license and are very useful for your journey as a
 
 **Government Data:**        
 
-[https://www.data.gov/]            
+https://www.data.gov/           
 https://www.census.gov/data.html                                  
 https://data.gov.uk/                                   
 https://www.opendatanetwork.com/                           
-https://data.un.org/                      
-Financial Data Sources:                                
+https://data.un.org/  
+
+**Financial Data Sources:**                                 
 
 https://data.worldbank.org/                    
 https://www.globalfinancialdata.com/               
