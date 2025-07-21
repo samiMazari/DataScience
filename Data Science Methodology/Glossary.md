@@ -77,3 +77,23 @@ This alphabetized glossary contains many of the terms you’ll find within this 
 | Separation                                  | Separation is the degree of discrimination achieved by the model in correctly classifying outcomes.                                                                     |
 | Statistical significance testing            | Evaluation technique to verify that data is appropriately handled and interpreted within the model.                                                                    |
 | True-positive rate                          | The rate at which the model correctly identifies positive outcomes.                                                                                                     |
+
+# 4. Glossary: From Deployment to Feedback
+
+This alphabetized glossary contains many of the terms you'll find within this lesson. These terms are important for you to recognize when working in the industry, when participating in user groups, and when participating in other certificate programs.
+
+| **Term**                    | **Definition** |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| **Browser-based application** | An application that users access through a web browser, typically on a tablet or other mobile device, to provide easy access to the model’s insights. |
+| **Cyclical methodology**     | An iterative approach to the data science process, where each stage informs and refines the subsequent stages. |
+| **Data collection refinement** | The process of obtaining additional data elements or information to improve the model’s performance. |
+| **Data science model**       | The result of data analysis and modeling that provides answers to specific questions or problems. |
+| **Feedback**                 | The process of obtaining input and comments from users and stakeholders to refine and improve the data science model. |
+| **Model refinement**         | The process of adjusting and improving the data science model based on user feedback and real-world performance. |
+| **Redeployment**             | The process of implementing a refined model and intervention actions after incorporating feedback and improvements. |
+| **Review process**           | The systematic assessment and evaluation of the data science model’s performance and impact. |
+| **Solution deployment**      | The process of implementing and integrating the data science model into the business or organizational workflow. |
+| **Solution owner**           | The individual or team responsible for overseeing the deployment and management of the data science solution. |
+| **Stakeholders**             | Individuals or groups with a vested interest in the data science model’s outcome and its practical application, such as solution owners, marketing, application developers, and IT administration. |
+| **Storytelling**             | Storytelling is the art of conveying your message, or ideas through a narrative structure that engages, entertains, and resonates with the audience. |
+| **Test environment**         | A controlled setting where the data science model is evaluated and refined before full-scale implementation. |
