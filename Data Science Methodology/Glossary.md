@@ -26,7 +26,7 @@ Welcome! This alphabetized glossary contains many of the terms you’ll find wit
 
 # Glossary: From Understanding to Preparation
 
-Welcome! This alphabetized glossary contains many of the terms you’ll find within this lesson. These terms are important for you to recognize when working in the industry, when participating in user groups, and when participating in other certificate programs.
+This alphabetized glossary contains many of the terms you’ll find within this lesson. These terms are important for you to recognize when working in the industry, when participating in user groups, and when participating in other certificate programs.
 
 | **Term**                      | **Definition**                                                                                                                                                         |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
