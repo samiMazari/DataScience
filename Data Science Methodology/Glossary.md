@@ -1,4 +1,4 @@
-# .1 Glossary: From Requirements to Collection
+# 1. Glossary: From Requirements to Collection
 
 Welcome! This alphabetized glossary contains many of the terms you’ll find within this lesson. These terms are important for you to recognize when working in the industry, when participating in user groups, and when participating in other certificate programs.
 
