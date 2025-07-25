@@ -70,7 +70,7 @@ A beginner-friendly glossary of essential terms for learning Python and understa
 
 
 
-**More About Python :**    
+# More About Python :    
 
 - Python conditions use `if` statements to execute code based on true/false conditions created by comparisons and Boolean expressions.
 
