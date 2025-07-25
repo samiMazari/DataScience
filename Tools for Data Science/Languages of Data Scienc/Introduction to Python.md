@@ -15,6 +15,61 @@
 - Python can also be used for Natural Language Processing (NLP) using the Natural Language Toolkit (NLTK).
 - The Python community has a well-documented history of paving the way for diversity and inclusion efforts in the tech industry as a whole.
 
+# Python and Data Science Glossary
+
+A beginner-friendly glossary of essential terms for learning Python and understanding foundational data science concepts.
+
+| **Term**                           | **Definition** |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AI                                 | AI (Artificial Intelligence) is the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. |
+| Application development            | The process of planning, designing, creating, testing, and deploying a software application to perform various business operations. |
+| Arithmetic Operations              | Basic operations like addition, subtraction, multiplication, and division.                                                                                   |
+| Array of numbers                   | A list of numbers or objects like a column in a table.                                                                                                        |
+| Assignment operator in Python      | Assigns a value to a variable. The symbol used is `=`.                                                                                                       |
+| Asterisk                           | Symbol `*`, used for multiplication in Python.                                                                                                               |
+| Backslash                          | Used to escape special characters in strings (e.g., `\n` for newline).                                                                                       |
+| Boolean                            | A data type with two values: `True` and `False`.                                                                                                             |
+| Colon                              | Used to define blocks, slices, and ranges.                                                                                                                   |
+| Constraint                         | Limit on values in a variable or dataset.                                                                                                                    |
+| Data engineering                   | Preparing, cleaning, testing, and optimizing data from numerous sources.                                                                                     |
+| Data science                       | Extracting knowledge from data through analysis, modeling, and visualization.                                                                                |
+| Data type                          | Tells what kind of data a variable can hold (e.g., int, float, str, bool).                                                                                   |
+| Double quote                       | Used to create string values in Python (e.g., `"text"`).                                                                                                     |
+| Escape sequence                    | Combination of characters starting with a backslash that represents a special character.                                                                    |
+| Expressions                        | Combinations of values and operations that return another value.                                                                                            |
+| Float                              | A Python data type for decimal numbers.                                                                                                                      |
+| Forward slash                      | Symbol `/`, used for division in Python.                                                                                                                     |
+| Formatted                          | Arranging info in a specific, structured format.                                                                                                             |
+| Function                           | A block of organized code for performing a task.                                                                                                             |
+| Immutable                          | Data type whose value cannot be changed after creation.                                                                                                      |
+| Integer                            | Whole numbers (positive or negative).                                                                                                                        |
+| List                               | A collection of values in a specific order, enclosed in brackets (e.g., `[1, 2, 3]`).                                                                        |
+| Manipulate                         | To modify or change data, often with string or list operations.                                                                                              |
+| Mathematical conversations         | Dialog or logic used to solve math-related problems.                                                                                                         |
+| Mathematical expressions           | Equations that return a value using math operations.                                                                                                         |
+| Mathematical operations            | Addition, subtraction, multiplication, and division.                                                                                                         |
+| Negative indexing                  | Accesses elements from the end of a list (e.g., `-1` is the last item).                                                                                      |
+| Operand                            | The values on which operations are performed.                                                                                                                |
+| Operations in Python               | Actions performed on variables or values (e.g., `+`, `-`, `*`, `/`).                                                                                         |
+| Operates on                        | Performs an operation on an operand.                                                                                                                         |
+| Parentheses                        | Used to group expressions or call functions.                                                                                                                 |
+| Print                              | Python function to display output.                                                                                                                           |
+| Sequence                           | An ordered collection of items (e.g., strings, lists).                                                                                                       |
+| Single quote                       | Used to create string values (e.g., `'text'`).                                                                                                               |
+| Slicing in Python                  | Extracts parts of sequences (e.g., `my_list[1:3]`).                                                                                                           |
+| Special character                  | Characters that are not letters or numbers and have special meaning (e.g., `@`, `#`, `\`).                                                                  |
+| Static value                       | A value that doesn’t change during execution.                                                                                                                |
+| String                             | A sequence of characters enclosed in quotes.                                                                                                                 |
+| String objects                     | Strings treated as objects with properties and methods.                                                                                                      |
+| Subsetting                         | Selecting parts of a data structure.                                                                                                                         |
+| Type casting                       | Changing the data type of a variable (e.g., from `int` to `float`).                                                                                          |
+| Types in Python                    | Different data types like int, float, str, list, etc.                                                                                                         |
+| Variable                           | A named reference to data stored in memory.                                                                                                                  |
+
+
+
+
+
 **More About Python :**    
 
 - Python conditions use `if` statements to execute code based on true/false conditions created by comparisons and Boolean expressions.
