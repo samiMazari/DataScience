@@ -30,3 +30,5 @@ It typically involves:
 
 > ⚠️ Note: Always check a website’s `robots.txt` and terms of use before scraping. Ethical and legal considerations matter.
 
+
+For beginners, the famous website to learn Scraping — [Books to Scrape](http://books.toscrape.com/) — is perfect for learning web scraping.
