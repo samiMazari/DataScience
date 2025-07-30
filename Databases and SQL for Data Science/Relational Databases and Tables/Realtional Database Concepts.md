@@ -67,8 +67,9 @@ DROP TABLE employees;
 ```
  ### TRUNCATE TABLE                            
  Deletes all data in the table but keeps the structure intact (can be reused).               
- ```sql
-TRUNCATE TABLE employees;
+ ```sql       
+TRUNCATE TABLE employees;                
+ ```           
 
 
 
