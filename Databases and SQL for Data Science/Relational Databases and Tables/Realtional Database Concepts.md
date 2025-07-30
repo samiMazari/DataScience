@@ -61,13 +61,13 @@ ALTER TABLE employees DROP COLUMN department;
 ```
 ### DROP TABLE                                              
 Deletes the entire table, including data and structure.                                         
-```
+```sql
 DROP TABLE employees;
 -- This action is irreversible — the table and all its data are lost.                      
 ```
  ### TRUNCATE TABLE                            
  Deletes all data in the table but keeps the structure intact (can be reused).               
- ```
+ ```sql
 TRUNCATE TABLE employees;
 
  ```
