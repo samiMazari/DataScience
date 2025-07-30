@@ -49,7 +49,7 @@ CREATE TABLE employees (
 ## ALTER, DROP, and TRUNCATE Statements                         
 ### ALTER TABLE                                 
  Used to modify an existing table (add, delete, or modify columns).                 
- ```
+ ```sql
 -- Add a column
 ALTER TABLE employees ADD department VARCHAR(50);
 
