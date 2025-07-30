@@ -1,7 +1,3 @@
-# DataScience 
-[View Certficate](https://coursera.org/share/2d5558750afb63c57452fa6d431af4d9)                
-[differents Sources of data](https://github.com/samiMazari/DataScience/blob/main/Tools%20for%20Data%20Science/Libraries%2C%20APIs%2C%20Datasets%20and%20Models/Sources%20of%20Datasets.md)
-
 | Term | Definition |
 |------|------------|
 | **AI** | **Artificial Intelligence** – The broad science of making machines "intelligent" or capable of performing tasks that require human intelligence. |
@@ -16,3 +12,7 @@
 | **Overfitting** | When a model learns noise in the training data, reducing its generalization performance. |
 | **Web Scraping** | The automated process of extracting data from websites, commonly used to gather information for analysis or research. |
 
+
+# DataScience 
+[View Certficate](https://coursera.org/share/2d5558750afb63c57452fa6d431af4d9)                
+[differents Sources of data](https://github.com/samiMazari/DataScience/blob/main/Tools%20for%20Data%20Science/Libraries%2C%20APIs%2C%20Datasets%20and%20Models/Sources%20of%20Datasets.md)
