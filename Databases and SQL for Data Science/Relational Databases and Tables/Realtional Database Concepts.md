@@ -39,3 +39,43 @@ CREATE TABLE employees (
     salary DECIMAL(10, 2),
     hire_date DATE
 );
+```
+
+**Notes:**                      
+- You must define the data type for each column.     
+- Use PRIMARY KEY to uniquely identify each row.                        
+- Constraints like NOT NULL, UNIQUE, CHECK, and FOREIGN KEY can also be added.
+
+## ALTER, DROP, and TRUNCATE Statements                         
+### ALTER TABLE                                 
+ Used to modify an existing table (add, delete, or modify columns).                 
+ ```
+-- Add a column
+ALTER TABLE employees ADD department VARCHAR(50);
+
+-- Modify a column
+ALTER TABLE employees MODIFY salary DECIMAL(12,2);
+
+-- Drop a column
+ALTER TABLE employees DROP COLUMN department;
+```
+### DROP TABLE                                              
+Deletes the entire table, including data and structure.                                         
+```
+DROP TABLE employees;
+-- This action is irreversible — the table and all its data are lost.                      
+```
+ ### TRUNCATE TABLE                            
+ Deletes all data in the table but keeps the structure intact (can be reused).               
+ ```
+TRUNCATE TABLE employees;
+
+ ```
+
+
+
+
+
+
+
+
