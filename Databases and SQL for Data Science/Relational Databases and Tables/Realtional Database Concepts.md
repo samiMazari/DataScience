@@ -70,7 +70,6 @@ DROP TABLE employees;
  ```sql
 TRUNCATE TABLE employees;
 
- ```
 
 
 
