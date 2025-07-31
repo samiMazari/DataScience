@@ -3,7 +3,7 @@
 
 Built-in database functions are **predefined functions** provided by a **Database Management System (DBMS)** to perform operations on data. These functions help manipulate, calculate, and analyze data efficiently during queries.
 
----
+
 
 ##  1. Aggregate Functions
 Used to perform calculations on multiple values and return a single value.
@@ -21,7 +21,7 @@ Used to perform calculations on multiple values and return a single value.
 SELECT AVG(salary) FROM employees;
 ```
 
----
+
 
 ##  2. String Functions
 Used to manipulate text/string values.
@@ -39,7 +39,7 @@ Used to manipulate text/string values.
 SELECT UPPER(first_name) FROM employees;
 ```
 
----
+
 
 ##  3. Numeric Functions
 Used to perform operations on numeric data.
@@ -58,7 +58,7 @@ Used to perform operations on numeric data.
 SELECT ROUND(salary, 2) FROM employees;
 ```
 
----
+
 
 ##  4. Date and Time Functions
 Used to handle date/time data.
@@ -77,7 +77,7 @@ Used to handle date/time data.
 SELECT DATEDIFF(CURDATE(), hire_date) FROM employees;
 ```
 
----
+
 
 ##  5. Conversion Functions
 Used to convert one data type to another.
@@ -93,7 +93,7 @@ Used to convert one data type to another.
 SELECT CAST(salary AS VARCHAR(10)) FROM employees;
 ```
 
----
+
 
 ##  6. Control Flow Functions
 Used for conditional logic.
