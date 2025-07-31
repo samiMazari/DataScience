@@ -1,5 +1,5 @@
 
-# 📋 SQL Cheat Sheet: CREATE TABLE, ALTER, DROP, TRUNCATE
+#  SQL 5 main Statements : CREATE TABLE, ALTER, DROP, TRUNCATE
 
 | **Command** | **Syntax** | **Description** | **Example** |
 |-------------|------------|-----------------|-------------|
