@@ -5,31 +5,31 @@
      - Python libraries are integral to becoming a data scientist and used in industries such as healthcare, finance, insurance, all things Internet, and many others.   
      - you will learn how to analyzing data, you'll learn how to build data pipelines and build your own machine learning model for making predictions on real world data set.
 
-### 1. Importings data sets :                   
+ - you will also learn how to import  data sets :                   
    - learn how to understand the data set characteristics.         
    - get an overview of Python packages for analyzing data.     
    - learn how to import data and start analyzing it.
 
-### 2. Data Wrangling :           
+### 1. Data Wrangling :           
    - Data wrangling.   
    - preprocessing.   
    - dealing with missing values.    
    - Data formatting and data normalization.
 
-### 3. Exploratory Data Analysis :                      
+### 2. Exploratory Data Analysis :                      
    - Exploratory data analysis.      
    - Descriptive statistics.            
    - GroupBy.           
    - correlation and other important statistics.
 
-### 4. Model Development : 
+### 3. Model Development : 
    - Linear regression.           
    - Model evaluation.            
    - Polynomial regression.            
    - pipelines measures for In-sample evaluation.             
    - prediction and decision making.
 
-### 5. Model Evaluation : 
+### 4. Model Evaluation : 
    - Model evaluation and refinement.             
    - Overfitting.             
    - Underfitting.         
