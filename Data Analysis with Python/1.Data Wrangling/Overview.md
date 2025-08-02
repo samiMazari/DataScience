@@ -17,3 +17,25 @@
  - The labs in this course run in JupyterLite environment. In JupyterLite, you'll need to download the required file to the local environment and then use the local path as the `CSV_path`.  
  - If you are using JupyterLabs or any other Python environment on your local machine, you can also use the URL of the required file directly as the `CSV_path`.
 
+## 2. Pre-Processing Data in Python :  
+Data formatting is critical for making data from various sources consistent and comparable.
+
+Master the techniques in Python to convert units of measurement, like transforming "city miles per gallon" to "city-liters per 100 kilometers" for ease of comparison and analysis.
+
+Acquire skills to identify and correct data types in Python, ensuring the data is accurately represented for subsequent statistical analyses.
+
+Data normalization helps make variables comparable and helps eliminate inherent biases in statistical models.
+
+You can apply Feature Scaling, Min-Max, and Z-Score to normalize data and apply each technique in Python using pandas’ methods.
+
+Binning is a method of data pre-processing to improve model accuracy and data visualization.
+
+Run binning techniques in Python using numpy's "linspace" and pandas' "cut" methods, particularly for numerical variables like "price."
+
+Utilize histograms to visualize the distribution of binned data and gain insights into feature distributions.
+
+Statistical models generally require numerical inputs, making it necessary to convert categorical variables like "fuel type" into numerical formats.
+
+You can implement the one-hot encoding technique in Python using pandas’ get_dummies method to transform categorical variables into a format suitable for machine learning models.
+
+
