@@ -1,4 +1,4 @@
-# Importing Data sets :
+## 1.Importing Data sets :
 ### Pandas DataFrame Methods Cheat Sheet
 
 | **Package/Method**              | **Description**                                                                                   | **Code Example**                                                                                      |
@@ -13,7 +13,7 @@
 | **Retrieve data set summary**    | Retrieve the summary of the data set being used, from the data frame                              | ```python df.info()```                                                                         |
 | **Save data frame to CSV**       | Save the processed data frame to a CSV file with a specified path                                 | ```python df.to_csv(<output CSV path>) ```                                                      |
 
-> 💡 **Note**:  
-> The labs in this course run in JupyterLite environment. In JupyterLite, you'll need to download the required file to the local environment and then use the local path as the `CSV_path`.  
-> If you are using JupyterLabs or any other Python environment on your local machine, you can also use the URL of the required file directly as the `CSV_path`.
+**Note**:  
+ - The labs in this course run in JupyterLite environment. In JupyterLite, you'll need to download the required file to the local environment and then use the local path as the `CSV_path`.  
+ - If you are using JupyterLabs or any other Python environment on your local machine, you can also use the URL of the required file directly as the `CSV_path`.
 
