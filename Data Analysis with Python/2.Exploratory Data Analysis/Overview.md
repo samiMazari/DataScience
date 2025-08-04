@@ -5,8 +5,47 @@ The chi-square test is a statistical method used to determine if there is a sign
 ### Concept
 The chi-square test is a non-parametric statistical method that evaluates whether the observed frequencies in each category differ significantly from the expected frequencies—assuming no association between the variables.
 
-The test is based on the chi-square distribution, which is a family of distributions defined by degrees of freedom (df). These distributions are right-skewed and vary depending on df. A chi-square distribution table lists critical values for given df and significance levels (α), which we use to assess if our computed test statistic is extreme enough to reject the null hypothesis.
+The test is based on the chi-square distribution, which is a family of distributions defined by degrees of freedom (df). These distributions are right-skewed and vary depending on df. A chi-square distribution table lists critical values for given df and significance levels (α), which we use to assess if our computed test statistic is extreme enough to reject the null hypothesis.      
 
-#### Null Hypothesis and Alternative Hypothesis
-The chi-square test involves formulating two hypotheses:
-Null Hypothesis `H0`
+#### Null Hypothesis and Alternative Hypothesis          
+The chi-square test involves formulating two hypotheses:                        
+Null Hypothesis `H0`- Assumes that there is no association between the categorical variables, implying that any observed differences are due to random chance.
+
+Alternative Hypothesis `H1` Assumes that there is a significant association between the variables, indicating that the observed differences are not due to chance alone.
+
+#### Formula
+The chi-square statistic is calculated using the formula:         χ² = ∑ (Oᵢ − Eᵢ)² / Eᵢ                      
+Where:
+
+- `Oᵢ` is the observed frequency for category *i*  
+- `Eᵢ` is the expected frequency for category *i*, calculated as:
+
+  Eᵢ = (row total × column total) / grand total
+
+The sum is taken over all cells in the contingency table.
+
+The calculated chi-square statistic is then compared to a critical value from the chi-square distribution table. This table provides critical values for different degrees of freedom (df) and significance levels 
+
+
+The degrees of freedom for the test are calculated as:    
+df = (r − 1) × (c − 1)
+
+where :    
+r is the number of rows and         
+c is the number of columns in the table.        
+
+#### Chi-Square Distribution Table
+A chi-square distribution table provides critical values that vary by degrees of freedom and the significance level (α). These values indicate the threshold beyond which the test statistic would be considered statistically significant.
+
+For example:
+
+df = 1, α = 0.05, the critical value is 3.841
+
+If your calculated χ² > 3.841, you reject H₀
+
+If χ² ≤ 3.841, you fail to reject H₀
+
+The higher the χ² value, the stronger the evidence against H₀.
+
+#### Python Implementation Example
+Below is a Python implementation using `scipy.stats and pandas`:
