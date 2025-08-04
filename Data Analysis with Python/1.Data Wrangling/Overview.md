@@ -18,6 +18,19 @@
  - If you are using JupyterLabs or any other Python environment on your local machine, you can also use the URL of the required file directly as the `CSV_path`.
 
 ## 2. Pre-Processing Data in Python :  
+
+| **Package/Method**                   | **Description**                                                                                      | **Code Example**                                                                                       |
+|-------------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Replace missing data with frequency** | Replace the missing values of the data set attribute with the most common (mode) entry in the column. | ```python\nMostfreqentry = df['attribute_name'].value_counts().idxmax()\ndf['attribute_name'].replace(np.nan, Mostfreqentry, inplace=True)\n``` |
+| **Replace missing data with mean**  | Replace the missing values of the data set attribute with the mean of all the entries in the column. | ```python\nAveragevalue = df['attribute_name'].astype(data_type).mean(axis=0)\ndf['attribute_name'].replace(np.nan, Averagevalue, inplace=True)\n``` |
+| **Fix the data types**              | Fix the data types of the columns in the dataframe.                                                  | ```python\ndf[['attribute1_name', 'attribute2_name', ...]] = df[['attribute1_name', 'attribute2_name', ...]].astype('data_type')\n# data_type is int, float, str, etc.\n``` |
+| **Data Normalization**              | Normalize the data in a column such that the values are restricted between 0 and 1.                  | ```python\ndf['attribute_name'] = df['attribute_name'] / df['attribute_name'].max()\n```               |
+| **Binning**                         | Create bins of data for better analysis and visualization.                                           | ```python\nbins = np.linspace(min(df['attribute_name']), max(df['attribute_name']), n)\n# n is the number of bins needed\ngroup_names = ['Group1', 'Group2', 'Group3', ...]\ndf['binned_attribute_name'] = pd.cut(df['attribute_name'], bins, labels=group_names, include_lowest=True)\n``` |
+| **Change column name**             | Change the label name of a dataframe column.                                                          | ```python\ndf.rename(columns={'old_name': 'new_name'}, inplace=True)\n```                              |
+| **Indicator Variables**            | Create indicator variables for categorical data.                                                     | ```python\ndummy_variable = pd.get_dummies(df['attribute_name'])\ndf = pd.concat([df, dummy_variable], axis=1)\n``` |
+
+
+
 - Data formatting is critical for making data from various sources consistent and comparable.
 
 - Master the techniques in Python to convert units of measurement, like transforming "city miles per gallon" to "city-liters per 100 kilometers" for ease of comparison and analysis.
