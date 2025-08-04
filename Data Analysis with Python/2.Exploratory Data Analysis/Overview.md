@@ -1,26 +1,12 @@
-# Introduction : 
-- Tools like the 'describe' function in pandas can quickly calculate key statistical measures like mean, standard deviation, and quartiles for all numerical variables in your data frame. 
+# Chi-Square Test for Categorical Variables : 
+### Introduction
+The chi-square test is a statistical method used to determine if there is a significant association between two categorical variables. This test is widely used in various fields, including social sciences, marketing, and healthcare, to analyze survey data, experimental results, and observational studies.
 
-- Use the 'value_counts' function to summarize data into different categories for categorical data. 
+### Concept
+The chi-square test is a non-parametric statistical method that evaluates whether the observed frequencies in each category differ significantly from the expected frequencies—assuming no association between the variables.
 
-- Box plots offer a more visual representation of the data's distribution for numerical data, indicating features like the median, quartiles, and outliers.
+The test is based on the chi-square distribution, which is a family of distributions defined by degrees of freedom (df). These distributions are right-skewed and vary depending on df. A chi-square distribution table lists critical values for given df and significance levels (α), which we use to assess if our computed test statistic is extreme enough to reject the null hypothesis.
 
-- Scatter plots are excellent for exploring relationships between continuous variables, like engine size and price, in a car data set.
-
-- Use Pandas' 'groupby' method to explore relationships between categorical variables.
-
-- Use pivot tables and heat maps for better data visualizations.
-
-- Correlation between variables is a statistical measure that indicates how the changes in one variable might be associated with changes in another variable.
-
-- When exploring correlation, use scatter plots combined with a regression line to visualize relationships between variables.
-
-- Visualization functions like regplot, from the seaborn library, are especially useful for exploring correlation.
-
-- The Pearson correlation, a key method for assessing the correlation between continuous numerical variables, provides two critical values—the coefficient, which indicates the strength and direction of the correlation, and the P-value, which assesses the certainty of the correlation.
-
-- A correlation coefficient close to 1 or -1 indicates a strong positive or negative correlation, respectively, while one close to zero suggests no correlation.
-
-- For P-values, values less than .001 indicate strong certainty in the correlation, while larger values indicate less certainty. Both the coefficient and P-value are important for confirming a strong correlation.
-
-- Heatmaps provide a comprehensive visual summary of the strength and direction of correlations among multiple variables.
+#### Null Hypothesis and Alternative Hypothesis
+The chi-square test involves formulating two hypotheses:
+Null Hypothesis `H0`
