@@ -29,7 +29,7 @@
 | **Change column name**             | Change the label name of a dataframe column.                                                          | ```python\ndf.rename(columns={'old_name': 'new_name'}, inplace=True)\n```                              |
 | **Indicator Variables**            | Create indicator variables for categorical data.                                                     | ```python\ndummy_variable = pd.get_dummies(df['attribute_name'])\ndf = pd.concat([df, dummy_variable], axis=1)\n``` |
 
-
+**Note**:         
 
 - Data formatting is critical for making data from various sources consistent and comparable.
 
