@@ -71,10 +71,10 @@ print("Expected Frequencies:\n", expected)
 ```
 
 Output:
-`Chi-square Statistic`: 1.008
-`Degrees of Freedom`: 1
-`P-value`: 0.3156
-`Expected Frequencies`:[[22.5 27.5] [22.5 27.5]]
+`Chi-square Statistic`: 1.008           
+`Degrees of Freedom`: 1                 
+`P-value`: 0.3156                    
+`Expected Frequencies`:[[22.5 27.5] [22.5 27.5]]           
 
 Interpretation: Since the p-value (0.3156) > 0.05, we fail to reject the null hypothesis—indicating no significant association.
 
