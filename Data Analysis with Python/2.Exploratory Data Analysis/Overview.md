@@ -127,8 +127,20 @@ df = (r − 1) × (c − 1)
 
 Using a chi-square distribution table, we compare the calculated chi-square value (44.33) with the critical value at one degree of freedom and a significance level (e.g., 0.05), approximately 3.841. Since 44.33 > 3.841, we reject the null hypothesis. This indicates a significant association between smoking status and the incidence of lung disease in this sample.
 
-## Conclusion
-The chi-square test is a powerful tool for analyzing the relationship between categorical variables. By comparing observed and expected frequencies, researchers can determine if there is a statistically significant association, providing valuable insights in various fields of study.
+# RECAP : 
+| Package/Method                       | Description                                                                                                                                       | Code Example                                                                                              |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Complete dataframe correlation      | Correlation matrix created using all the attributes of the dataset.                                                                               | df.corr()                                                                                                  |
+| Specific Attribute correlation      | Correlation matrix created using specific attributes of the dataset.                                                                              | df[[‘attribute1’,’attribute2’,…]].corr()                                                                   |
+| Scatter Plot                        | Create a scatter plot using the data points of the dependent variable along the x-axis and the independent variable along the y-axis.            | from matplotlib import pyplot as plt<br>plt.scatter(df[‘attribute1’],df[‘attribute2’])                    |
+| Regression Plot                     | Uses the dependent and independent variables in a Pandas data frame to create a scatter plot with a generalized linear regression line for the data. | import seaborn as sns<br>sns.regplot(x=‘attribute1’,y=‘attribute2’, data=df)                              |
+| Box Plot                            | Create a box-and-whisker plot that uses the pandas dataframe, the dependent, and the independent variables.                                       | import seaborn as sns<br>sns.boxplot(x=‘attribute1’,y=‘attribute2’, data=df)                              |
+| Grouping by attributes              | Create a group of different attributes of a dataset to create a subset of the data.                                                               | df_group = df[[‘attribute1’,’attribute2’,…]]                                                               |
+| Groupby statements                  | a. Group the data by different categories of an attribute, displaying the average value of numerical attributes within the same category. <br> b. Group the data by different categories of multiple attributes, displaying the average value of numerical attributes within the same category. | a) df_group = df.groupby([‘attribute1’])[‘attribute2’].mean()<br>b) df_group = df.groupby([‘attribute1’,’attribute2’])[‘attribute3’].mean() |
+| Pivot Tables                        | Create Pivot tables for better representation of data based on parameters.                                                                        | grouped_pivot = df.pivot_table(values=‘attribute1’,index=‘attribute2’,columns=‘attribute3’)               |
+| Pseudocolor plot                    | Create a heatmap image using a PseudoColor plot (or pcolor) using the pivot table as data.                                                        | from matplotlib import pyplot as plt<br>plt.pcolor(grouped_pivot, cmap=‘cool’)                            |
+| Pearson Coefficient and p-value     | Calculate the Pearson Coefficient and p-value of a pair of attributes.                                                                            | from scipy import stats<br>pearsonr_coef,p_value=stats.pearsonr(df[‘attribute1’],df[‘attribute2’])        |
+
 
 
 
