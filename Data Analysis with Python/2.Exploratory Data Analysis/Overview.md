@@ -105,5 +105,31 @@ Using the formula for expected frequencies:
 
 - **E<sub>Non-Smoker, No Disease</sub>** = (120 × 130) / 200 = **78**
 
+### Step 2: Compute Chi-Square Statistic
+
+Using the formula:
+
+χ² = (O - E)² / E
+
+χ² = (50−28)² / 28 + (30−52)² / 52 + (20−42)² / 42 + (100−78)² / 78
+= (22)² / 28 + (22)² / 52 + (22)² / 42 + (22)² / 78
+= 484 / 28 + 484 / 52 + 484 / 42 + 484 / 78
+= 17.29 + 9.31 + 11.52 + 6.21
+= 44.33
+
+### Step 3: Determine Degrees of Freedom
+
+df = (r − 1) × (c − 1)
+= (2 − 1) × (2 − 1)
+= 1
+
+### Step 4: Interpret the Result
+
+Using a chi-square distribution table, we compare the calculated chi-square value (44.33) with the critical value at one degree of freedom and a significance level (e.g., 0.05), approximately 3.841. Since 44.33 > 3.841, we reject the null hypothesis. This indicates a significant association between smoking status and the incidence of lung disease in this sample.
+
+## Conclusion
+The chi-square test is a powerful tool for analyzing the relationship between categorical variables. By comparing observed and expected frequencies, researchers can determine if there is a statistically significant association, providing valuable insights in various fields of study.
+
+
 
 
