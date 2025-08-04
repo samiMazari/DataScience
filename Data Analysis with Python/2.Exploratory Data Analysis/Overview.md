@@ -93,7 +93,17 @@ Suppose a researcher wants to determine if there is an association between gende
 |Female	|25	|25	|50|
 |Total	|45	|55|	100|
 
+### Step 1: Calculate Expected Frequencies
 
+Using the formula for expected frequencies:
+
+- **E<sub>Smoker, Disease</sub>** = (80 × 70) / 200 = **28**
+
+- **E<sub>Smoker, No Disease</sub>** = (80 × 130) / 200 = **52**
+
+- **E<sub>Non-Smoker, Disease</sub>** = (120 × 70) / 200 = **42**
+
+- **E<sub>Non-Smoker, No Disease</sub>** = (120 × 130) / 200 = **78**
 
 
 
