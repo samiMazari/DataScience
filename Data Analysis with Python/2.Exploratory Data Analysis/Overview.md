@@ -88,6 +88,7 @@ Practical Example - Weak Correlation
 Suppose a researcher wants to determine if there is an association between gender (male, female) and preference for a new product (like, dislike). The researcher surveys 100 people and records the following data:
 
 |Category	|Like	|Dislike	|Total|
+|----------|------|---------|-------|
 |Male|	20	|30	|50|
 |Female	|25	|25	|50|
 |Total	|45	|55|	100|
