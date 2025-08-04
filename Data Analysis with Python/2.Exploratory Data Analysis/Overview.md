@@ -70,7 +70,7 @@ print("P-value:", p)
 print("Expected Frequencies:\n", expected)
 ```
 
-Output:
+Output:       
 `Chi-square Statistic`: 1.008           
 `Degrees of Freedom`: 1                 
 `P-value`: 0.3156                    
