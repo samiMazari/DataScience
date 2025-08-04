@@ -78,6 +78,19 @@ Output:
 
 Interpretation: Since the p-value (0.3156) > 0.05, we fail to reject the null hypothesis—indicating no significant association.
 
+### Applications         
+Market Research: Analyzing the association between customer demographics and product preferences.               
+Healthcare: Studying the relationship between patient characteristics and disease incidence.                            
+Social Sciences: Investigating the link between social factors (e.g., education level) and behavioral outcomes (e.g., voting patterns).                 
+Education: Examining the connection between teaching methods and student performance.               
+Quality Control: Assessing the association between manufacturing conditions and product defects.                    
+Practical Example - Weak Correlation                 
+Suppose a researcher wants to determine if there is an association between gender (male, female) and preference for a new product (like, dislike). The researcher surveys 100 people and records the following data:
+
+|Category	|Like	|Dislike	|Total|
+|Male|	20	|30	|50|
+|Female	|25	|25	|50|
+|Total	|45	|55|	100|
 
 
 
