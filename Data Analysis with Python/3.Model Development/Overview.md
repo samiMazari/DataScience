@@ -1,4 +1,4 @@
-# Notes :
+# Simple / Multiple linear regression :
 - Linear regression refers to using one independent variable to make a prediction.
 
 - You can use multiple linear regression to explain the relationship between one continuous target y variable and two or more predictor x variables.
